@@ -3,9 +3,9 @@
 This guide will help you set up your VSCode environment for an efficient and personalized coding experience.
 
 ## Table of Contents
-1. [Color Theme](#1-color-theme)  
-2. [Extensions](#2-extensions)  
-3. [KeyBindings](#3-keybindings)  
+1. [Color Theme](#color-theme)  
+2. [Extensions](#extensions)  
+3. [KeyBindings](#keybindings)  
 
 ---
 
