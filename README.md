@@ -62,6 +62,13 @@ Extensions enhance VSCode’s functionality. Here’s a list of recommended exte
 
 **"Language" IntelliSense**: Replace "Language" with the Programming language of your choice. Advanced autocompletion and IntelliSense for development.
 
+
+To install an extension:
+1. Open the **Extensions** view (Ctrl+Shift+X).
+2. Search for the desired extension.
+3. Click "Install."
+4. Restart VsCode.
+
 ---
 
 ## KeyBindings ⌨️
