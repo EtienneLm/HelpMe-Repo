@@ -1,0 +1,62 @@
+
+# Setting Up a Node.js Project
+
+This guide will walk you through the steps to set up a new Node.js project.
+
+## Prerequisites
+
+Before you begin, ensure that you have the following installed:
+- [Node.js](https://nodejs.org/) (which includes npm, the Node Package Manager)
+
+## Steps to Set Up a Node.js Project
+
+### Step 1: Create a Project Directory
+
+1. Open a terminal or command prompt.
+2. Navigate to the location where you want to create your project.
+3. Create a new directory for your project and navigate into it:
+
+   ```
+   mkdir my-node-project
+   cd my-node-project
+   ```
+### Step 2: Initialize the Project
+```
+npm init
+```
+To skip the prompts and create a default package.json, you can use:
+```
+npm init -y
+```
+
+### Step 3: Create the Main File
+Create a main file for your application. By default, this is often named index.js. You can create it using the following command:
+```
+touch index.js
+```
+
+Open index.js in your favorite text editor and add a simple example code:
+
+```javascript
+// index.js
+console.log('Hello, Node.js!');
+```
+
+### Step 4: Install Dependencies
+```
+npm install express
+```
+This command will:
+Download and install the Express library.
+Update your package.json file to include Express as a dependency.
+Create a node_modules directory in your project to store the installed packages.
+
+### Step 5: Run Your Application
+To run your Node.js application
+```
+node index.js
+```
+You should see the output:
+```
+Hello, Node.js!
+```
