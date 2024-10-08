@@ -21,8 +21,8 @@ php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 It’s a good practice to verify the installer’s SHA-384 to ensure its integrity. Run the following command to get the latest installer SHA-384 from the Composer website:
 ```
 HASH="$(php -r "echo hash_file('SHA384', 'composer-setup.php');")"
-Then compare the output against the latest SHA-384 hash provided on the Composer website. If it matches, proceed to the next step.
 ```
+Then compare the output against the latest SHA-384 hash provided on the Composer website. If it matches, proceed to the next step.
 
 ### Step 3: Install Composer Globally
 ```
