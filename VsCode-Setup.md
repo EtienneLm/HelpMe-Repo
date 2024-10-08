@@ -31,33 +31,33 @@ To install a new theme:
 Extensions enhance VSCode’s functionality. Here’s a list of recommended extensions:
 
 <p align="left" style="display: flex; align-items: center;">
-  <img src="small/icone-1.ico" alt="Live Server Icon" width="40" />  
+  <img src="icons/icone-1.ico" alt="Live Server Icon" width="40" />  
   <strong style="margin-left: 10px;">Live Server:</strong>  
   <span>Launch a local development server with live reload.</span>
 </p>
 
 <p align="left" style="display: flex; align-items: center;">
-  <img src="small/icone-4.ico" alt="Prettier Icon" width="40" />  
+  <img src="icons/icone-4.ico" alt="Prettier Icon" width="40" />  
   <strong style="margin-left: 10px;">Prettier - Code Formatter:</strong>  
   <span>Automatically formats your code to follow consistent style guides.</span>
 </p>
 
 <p align="left" style="display: flex; align-items: center;">
-  <img src="small/icone-2.ico" alt="Auto Rename Tag Icon" width="40" />  
+  <img src="icons/icone-2.ico" alt="Auto Rename Tag Icon" width="40" />  
   <strong style="margin-left: 10px;">Auto Rename Tag:</strong>  
   <span>Automatically renames paired HTML/XML tags.</span>
 </p>
 
 <p align="left" style="display: flex; align-items: center;">
-  <img src="small/icone-5.ico" alt="Better Comments Icon" width="40" />  
+  <img src="icons/icone-5.ico" alt="Better Comments Icon" width="40" />  
   <strong style="margin-left: 10px;">Better Comments:</strong>  
   <span>Improve the readability of your code comments by adding color-coded tags.</span>
 </p>
 
 <p align="left" style="display: flex; align-items: center;">
-  <img src="small/icone-3.ico" alt="Material Icon Theme Icon" width="40" />  
+  <img src="icons/icone-3.ico" alt="Material Icon Theme Icon" width="40" />  
   <strong style="margin-left: 10px;">Material Icon Theme:</strong>  
-  <span>Adds beautiful icons to your file tree for better visual recognition, or alternatively, <strong>vscode-icons</strong>.</span>
+  <span>Adds beautiful  to your file tree for better visual recognition, or alternatively, <strong>vscode-</strong>.</span>
 </p>
 
 **"Language" IntelliSense**: Replace "Language" with the Programming language of your choice. Advanced autocompletion and IntelliSense for development.
