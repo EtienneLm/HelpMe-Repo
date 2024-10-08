@@ -9,7 +9,7 @@ This guide will help you set up your VSCode environment for an efficient and per
 
 ---
 
-## 1. Color Theme 🎨
+## Color Theme 🎨
 
 You can easily customize your VSCode color theme:
 
@@ -26,7 +26,7 @@ To install a new theme:
 
 ---
 
-## 2. Extensions 🛠️
+## Extensions 🛠️
 
 Extensions enhance VSCode’s functionality. Here’s a list of recommended extensions:
 
@@ -64,7 +64,7 @@ Extensions enhance VSCode’s functionality. Here’s a list of recommended exte
 
 ---
 
-## 3. KeyBindings ⌨️
+## KeyBindings ⌨️
 
 Useful KeyBindings: 
 
