@@ -159,16 +159,16 @@ Exemple : Une application mobile qui génère des playlists dynamiques en foncti
 
 La sécurité des API est cruciale pour éviter l'accès non autorisé et la fuite de données sensibles. Voici quelques pratiques courantes :
 
-Authentification : Utilisation de tokens (comme OAuth 2.0) pour sécuriser l’accès.
+Authentification : Utilisation de tokens (comme OAuth 2.0) pour sécuriser l’accès. 
 Exemple : L'API GitHub utilise des tokens d’authentification pour permettre aux développeurs d'accéder à leurs dépôts de manière sécurisée.
 
-Chiffrement : Utilisation de HTTPS pour protéger les communications.
+Chiffrement : Utilisation de HTTPS pour protéger les communications. 
 Exemple : Lorsque tu envoies des informations de paiement via une API (comme Stripe), elles sont toujours chiffrées avec HTTPS pour éviter les interceptions.
 
-Limitation de débit (rate limiting) : Restreindre le nombre de requêtes pour éviter les abus.
+Limitation de débit (rate limiting) : Restreindre le nombre de requêtes pour éviter les abus. 
 Exemple : L'API de Twitter limite le nombre de requêtes par minute pour éviter les attaques de type DDoS ou les abus.
 
-Autorisation : Vérifier les permissions des utilisateurs pour chaque action.
+Autorisation : Vérifier les permissions des utilisateurs pour chaque action. 
 Exemple : L'API d'une application bancaire vérifiera toujours que tu as les droits nécessaires pour accéder à certaines informations, comme ton solde bancaire ou l’historique de tes transactions.
 
 ---
