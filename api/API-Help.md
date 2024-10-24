@@ -125,33 +125,33 @@ Exemple :
 
 Il existe plusieurs types d'API, adaptées à différents usages :
 
-    API Web : Fonctionne via Internet avec des protocoles comme HTTP/HTTPS.
-        Exemple : L’API d’OpenWeather pour obtenir les prévisions météo.
+- API Web : Fonctionne via Internet avec des protocoles comme HTTP/HTTPS.
+    Exemple : L’API d’OpenWeather pour obtenir les prévisions météo.
 
-    API Système : Interface avec des systèmes d'exploitation ou des bibliothèques logicielles.
-        Exemple : Les API Windows permettent à des applications d’interagir avec le système d’exploitation pour accéder à des fichiers ou aux paramètres système.
+- API Système : Interface avec des systèmes d'exploitation ou des bibliothèques logicielles.
+    Exemple : Les API Windows permettent à des applications d’interagir avec le système d’exploitation pour accéder à des fichiers ou aux paramètres système.
 
-    API de base de données : Permet de manipuler des bases de données (CRUD).
-        Exemple : Une API SQL permet d’interagir avec une base de données pour créer, lire, mettre à jour ou supprimer des données.
+- API de base de données : Permet de manipuler des bases de données (CRUD).
+    Exemple : Une API SQL permet d’interagir avec une base de données pour créer, lire, mettre à jour ou supprimer des données.
 
-    API de bibliothèques logicielles : Fournit des fonctions dans des langages de programmation spécifiques (comme les API de Python).
-        Exemple : Une bibliothèque comme NumPy pour Python dispose d’une API pour traiter les calculs mathématiques.
+- API de bibliothèques logicielles : Fournit des fonctions dans des langages de programmation spécifiques (comme les API de Python).
+    Exemple : Une bibliothèque comme NumPy pour Python dispose d’une API pour traiter les calculs mathématiques.
 
 ---
 
 ## 7. Cas concrets d'utilisation 📱
 
-    Google Maps : Intégration d'une carte interactive dans une application grâce à l'API Google Maps.
-        Exemple : Un site d'immobilier affiche les propriétés sur une carte interactive.
+Google Maps : Intégration d'une carte interactive dans une application grâce à l'API Google Maps.
+Exemple : Un site d'immobilier affiche les propriétés sur une carte interactive.
 
-    Stripe : Traitement des paiements en ligne pour les boutiques e-commerce.
-        Exemple : Une boutique en ligne intègre Stripe pour traiter les transactions sans manipuler directement les cartes bancaires.
+Stripe : Traitement des paiements en ligne pour les boutiques e-commerce.
+Exemple : Une boutique en ligne intègre Stripe pour traiter les transactions sans manipuler directement les cartes bancaires.
 
-    Twitter API : Accéder et publier des tweets directement depuis une application tierce.
-        Exemple : Une application d'analyse des réseaux sociaux qui récupère les tendances via l’API Twitter.
+Twitter API : Accéder et publier des tweets directement depuis une application tierce.
+Exemple : Une application d'analyse des réseaux sociaux qui récupère les tendances via l’API Twitter.
 
-    Spotify API : Accéder à des playlists, albums, ou gérer des bibliothèques musicales via des applications externes.
-        Exemple : Une application mobile qui génère des playlists dynamiques en fonction de tes préférences en utilisant l’API Spotify.
+Spotify API : Accéder à des playlists, albums, ou gérer des bibliothèques musicales via des applications externes.
+Exemple : Une application mobile qui génère des playlists dynamiques en fonction de tes préférences en utilisant l’API Spotify.
 
 ---
 
@@ -159,17 +159,17 @@ Il existe plusieurs types d'API, adaptées à différents usages :
 
 La sécurité des API est cruciale pour éviter l'accès non autorisé et la fuite de données sensibles. Voici quelques pratiques courantes :
 
-    Authentification : Utilisation de tokens (comme OAuth 2.0) pour sécuriser l’accès.
-        Exemple : L'API GitHub utilise des tokens d’authentification pour permettre aux développeurs d'accéder à leurs dépôts de manière sécurisée.
+Authentification : Utilisation de tokens (comme OAuth 2.0) pour sécuriser l’accès.
+Exemple : L'API GitHub utilise des tokens d’authentification pour permettre aux développeurs d'accéder à leurs dépôts de manière sécurisée.
 
-    Chiffrement : Utilisation de HTTPS pour protéger les communications.
-        Exemple : Lorsque tu envoies des informations de paiement via une API (comme Stripe), elles sont toujours chiffrées avec HTTPS pour éviter les interceptions.
+Chiffrement : Utilisation de HTTPS pour protéger les communications.
+Exemple : Lorsque tu envoies des informations de paiement via une API (comme Stripe), elles sont toujours chiffrées avec HTTPS pour éviter les interceptions.
 
-    Limitation de débit (rate limiting) : Restreindre le nombre de requêtes pour éviter les abus.
-        Exemple : L'API de Twitter limite le nombre de requêtes par minute pour éviter les attaques de type DDoS ou les abus.
+Limitation de débit (rate limiting) : Restreindre le nombre de requêtes pour éviter les abus.
+Exemple : L'API de Twitter limite le nombre de requêtes par minute pour éviter les attaques de type DDoS ou les abus.
 
-    Autorisation : Vérifier les permissions des utilisateurs pour chaque action.
-        Exemple : L'API d'une application bancaire vérifiera toujours que tu as les droits nécessaires pour accéder à certaines informations, comme ton solde bancaire ou l’historique de tes transactions.
+Autorisation : Vérifier les permissions des utilisateurs pour chaque action.
+Exemple : L'API d'une application bancaire vérifiera toujours que tu as les droits nécessaires pour accéder à certaines informations, comme ton solde bancaire ou l’historique de tes transactions.
 
 ---
 
