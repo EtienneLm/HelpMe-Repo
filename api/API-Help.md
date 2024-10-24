@@ -65,15 +65,16 @@ L’API répondra avec les informations de l’utilisateur 123 au format JSON :
 
 Les API utilisent souvent des méthodes HTTP pour interagir. Voici les plus courantes :
 
-GET : 🔍 Récupérer des informations (lecture)
-### 🧐 Exemple : 
+**GET :** 🔍 Récupérer des informations (lecture)  
+🧐Exemple :   
 Obtenir les détails d’un produit dans une boutique en ligne :
 ```
 GET https://api.boutique.com/products/456
 ```  
 
-POST : ➕ Envoyer des données pour créer une ressource
-### 🧐 Exemple :
+  
+**POST :** ➕ Envoyer des données pour créer une ressource  
+🧐Exemple :  
 Ajouter un nouvel article à ton blog :
 ```bash
 POST https://api.blog.com/articles
@@ -84,10 +85,11 @@ POST https://api.blog.com/articles
   "content": "Ceci est le contenu de l'article."
 }
 ```
-  
-PUT : ✏️ Mettre à jour ou remplacer une ressource existante
-🧐 Exemple : Mettre à jour les informations d’un produit :
 
+  
+**PUT :** ✏️ Mettre à jour ou remplacer une ressource existante  
+🧐Exemple :  
+Mettre à jour les informations d’un produit :
 ```bash
 PUT https://api.boutique.com/products/456
 ```
@@ -98,10 +100,10 @@ PUT https://api.boutique.com/products/456
   "price": 19.99
 }
 ```
-  
-DELETE : 🗑️ Supprimer une ressource
-🧐 Exemple : Supprimer un compte utilisateur :
 
+  
+**DELETE :** 🗑️ Supprimer une ressource  
+🧐Exemple : Supprimer un compte utilisateur :
 ```bash
 DELETE https://api.exemple.com/users/123
 ```
@@ -116,7 +118,7 @@ Les API sont devenues indispensables dans le monde moderne. Elles permettent :
   - La scalabilité : les entreprises peuvent intégrer des services externes plutôt que de tout construire en interne.
   - L'automatisation des processus entre différents systèmes.
 
-### 🧐 Exemple :
+🧐Exemple :  
 Les applications mobiles et les sites web utilisent souvent des API pour récupérer les données du back-end. Par exemple, une app de livraison utilise une API pour récupérer les menus des restaurants et passer commande sans que tu saches où sont stockées ces informations.
 
 ---
@@ -124,20 +126,20 @@ Les applications mobiles et les sites web utilisent souvent des API pour récup�
 ## 6. Types d'API 🛠️
 
 Il existe plusieurs types d'API, adaptées à différents usages :
-- API Web : Fonctionne via Internet avec des protocoles comme HTTP/HTTPS.
-  #### 🧐 Exemple :
+- **API Web :** Fonctionne via Internet avec des protocoles comme HTTP/HTTPS.  
+  🧐Exemple :  
   L’API d’OpenWeather pour obtenir les prévisions météo.
 
-- API Système : Interface avec des systèmes d'exploitation ou des bibliothèques logicielles.
-  #### 🧐 Exemple :
+- **API Système :** Interface avec des systèmes d'exploitation ou des bibliothèques logicielles.  
+  🧐Exemple :  
   Les API Windows permettent à des applications d’interagir avec le système d’exploitation pour accéder à des fichiers ou aux paramètres système.
 
-- API de base de données : Permet de manipuler des bases de données (CRUD).
-  #### 🧐 Exemple : 
+- **API de base de données :** Permet de manipuler des bases de données (CRUD).  
+  🧐Exemple :  
   Une API SQL permet d’interagir avec une base de données pour créer, lire, mettre à jour ou supprimer des données.
 
-- API de bibliothèques logicielles : Fournit des fonctions dans des langages de programmation spécifiques (comme les API de Python).
-  #### 🧐 Exemple :
+- **API de bibliothèques logicielles :** Fournit des fonctions dans des langages de programmation spécifiques (comme les API de Python).  
+  🧐Exemple :  
   Une bibliothèque comme NumPy pour Python dispose d’une API pour traiter les calculs mathématiques.
 
 ---
@@ -146,19 +148,19 @@ Il existe plusieurs types d'API, adaptées à différents usages :
 
 **Google Maps** :  
 Intégration d'une carte interactive dans une application grâce à l'API Google Maps.  
-### 🧐 Exemple :
+🧐Exemple :  
 Un site d'immobilier affiche les propriétés sur une carte interactive.
 
 **Stripe** : Traitement des paiements en ligne pour les boutiques e-commerce.  
-### 🧐 Exemple :
+🧐Exemple :  
 Une boutique en ligne intègre Stripe pour traiter les transactions sans manipuler directement les cartes bancaires.
 
 **Twitter API** : Accéder et publier des tweets directement depuis une application tierce.  
-### 🧐 Exemple :
+🧐Exemple :  
 Une application d'analyse des réseaux sociaux qui récupère les tendances via l’API Twitter.
 
 **Spotify API** : Accéder à des playlists, albums, ou gérer des bibliothèques musicales via des applications externes.  
-### 🧐 Exemple :
+🧐Exemple :  
 Une application mobile qui génère des playlists dynamiques en fonction de tes préférences en utilisant l’API Spotify.
 
 ---
@@ -167,18 +169,21 @@ Une application mobile qui génère des playlists dynamiques en fonction de tes 
 
 La sécurité des API est cruciale pour éviter l'accès non autorisé et la fuite de données sensibles. Voici quelques pratiques courantes :
 
-**Authentification :** Utilisation de tokens (comme OAuth 2.0) pour sécuriser l’accès.  
-### 🧐 Exemple :
+**Authentification :** Utilisation de tokens (comme OAuth 2.0) pour sécuriser l’accès.   
+🧐Exemple :  
 L'API GitHub utilise des tokens d’authentification pour permettre aux développeurs d'accéder à leurs dépôts de manière sécurisée.
 
-Chiffrement : Utilisation de HTTPS pour protéger les communications.
-Exemple : Lorsque tu envoies des informations de paiement via une API (comme Stripe), elles sont toujours chiffrées avec HTTPS pour éviter les interceptions.
+**Chiffrement :** Utilisation de HTTPS pour protéger les communications.  
+🧐Exemple :  
+Lorsque tu envoies des informations de paiement via une API (comme Stripe), elles sont toujours chiffrées avec HTTPS pour éviter les interceptions.
 
-Limitation de débit (rate limiting) : Restreindre le nombre de requêtes pour éviter les abus.
-Exemple : L'API de Twitter limite le nombre de requêtes par minute pour éviter les attaques de type DDoS ou les abus.
+**Limitation de débit (rate limiting) :** Restreindre le nombre de requêtes pour éviter les abus.  
+🧐Exemple :  
+L'API de Twitter limite le nombre de requêtes par minute pour éviter les attaques de type DDoS ou les abus.
 
-Autorisation : Vérifier les permissions des utilisateurs pour chaque action.
-Exemple : L'API d'une application bancaire vérifiera toujours que tu as les droits nécessaires pour accéder à certaines informations, comme ton solde bancaire ou l’historique de tes transactions.
+**Autorisation :** Vérifier les permissions des utilisateurs pour chaque action.  
+🧐Exemple :  
+L'API d'une application bancaire vérifiera toujours que tu as les droits nécessaires pour accéder à certaines informations, comme ton solde bancaire ou l’historique de tes transactions.
 
 ---
 ## Conclusion :
