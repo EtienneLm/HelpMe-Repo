@@ -145,7 +145,8 @@ Une bibliothèque comme NumPy pour Python dispose d’une API pour traiter les c
 
 ## 7. Cas concrets d'utilisation 📱
 
-**Google Maps** : Intégration d'une carte interactive dans une application grâce à l'API Google Maps.  
+**Google Maps** :  
+Intégration d'une carte interactive dans une application grâce à l'API Google Maps.  
 ### 🧐 Exemple :
 Un site d'immobilier affiche les propriétés sur une carte interactive.
 
