@@ -124,22 +124,21 @@ Les applications mobiles et les sites web utilisent souvent des API pour récup�
 ## 6. Types d'API 🛠️
 
 Il existe plusieurs types d'API, adaptées à différents usages :
-
 - API Web : Fonctionne via Internet avec des protocoles comme HTTP/HTTPS.
-### 🧐 Exemple :
-L’API d’OpenWeather pour obtenir les prévisions météo.
+  #### 🧐 Exemple :
+  L’API d’OpenWeather pour obtenir les prévisions météo.
 
 - API Système : Interface avec des systèmes d'exploitation ou des bibliothèques logicielles.
-### 🧐 Exemple :
-Les API Windows permettent à des applications d’interagir avec le système d’exploitation pour accéder à des fichiers ou aux paramètres système.
+  #### 🧐 Exemple :
+  Les API Windows permettent à des applications d’interagir avec le système d’exploitation pour accéder à des fichiers ou aux paramètres système.
 
 - API de base de données : Permet de manipuler des bases de données (CRUD).
-### 🧐 Exemple : 
-Une API SQL permet d’interagir avec une base de données pour créer, lire, mettre à jour ou supprimer des données.
+  #### 🧐 Exemple : 
+  Une API SQL permet d’interagir avec une base de données pour créer, lire, mettre à jour ou supprimer des données.
 
 - API de bibliothèques logicielles : Fournit des fonctions dans des langages de programmation spécifiques (comme les API de Python).
-### 🧐 Exemple :
-Une bibliothèque comme NumPy pour Python dispose d’une API pour traiter les calculs mathématiques.
+  #### 🧐 Exemple :
+  Une bibliothèque comme NumPy pour Python dispose d’une API pour traiter les calculs mathématiques.
 
 ---
 
